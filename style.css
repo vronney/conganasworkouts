@@ -28,6 +28,10 @@
   text-shadow: 2px 0 0 #000000;
 }
 
+.dumbbell {
+  transform: rotate(-45deg);
+}
+
 /* Resize text when viewed on a phone */
 @media only screen and (max-width: 500px) {
   .fitHeader {
