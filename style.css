@@ -41,7 +41,7 @@
   #navbarNav {
     position: fixed;
     top: 0;
-    left: 0px;
+    right: 0px;
     z-index: 99;
     width: 280px;
     height: 100%;
@@ -65,8 +65,8 @@
 
   #dismiss {
     display: block !important;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     position: relative;
     top: 10px;
     right: 10px;
