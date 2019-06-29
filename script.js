@@ -13,4 +13,14 @@ $("#dismiss, .menu-overlay, .nav-link").on("click", function (event) {
   $(".menu-overlay").fadeOut(500);
 });
 
+// Function will scroll to the section 
+
+$(".navbar li a").click(function (e) {
+  e.preventDefault();
+
+  var targetElement = $(this).attr("href");
+  var targetPosition = $(targetElement).offset().top;
+
+  $("html, body").animate({scrollTop: targetPosition - 96}, "slow");
+});
 
