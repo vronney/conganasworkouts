@@ -30,6 +30,13 @@
 
 .dumbbell {
   transform: rotate(-45deg);
+  transition-duration: 2s; /* Rotation of dumbbell will take 2 secs to rotate 90 degrees and take 2 secs to return to its original position */
+}
+
+/* DumbBell will rotate 45 degrees and take 2 secs when hovered on and then return to original position when there is no hovering */
+.dumbbell:hover {
+  font-size: 50px;
+  transform: rotate(90deg);
 }
 
 /* Workout Image */
