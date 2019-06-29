@@ -32,6 +32,11 @@
   transform: rotate(-45deg);
 }
 
+/* Workout Image */
+.mealPreps {
+  height: 214.55px; 
+}
+
 /* Resize text when viewed on a phone */
 @media only screen and (max-width: 500px) {
   .fitHeader {
