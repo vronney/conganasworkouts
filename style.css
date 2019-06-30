@@ -44,6 +44,16 @@
   height: 214.55px; 
 }
 
+/* About Me Section */
+
+.aboutMeImage {
+  background: url('images/elsa_in_gym.png'), no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* width: 20vw; */
+  height: 50vh;
+}
+
 /* Resize text when viewed on a phone */
 @media only screen and (max-width: 500px) {
   .fitHeader {
@@ -83,6 +93,16 @@
     top: 10px;
     right: 10px;
     margin-left: 240px;
+  }
+
+  .aboutMeText h1 {
+    font-size: 1.5rem;
+    color: blue;
+  }
+
+  .aboutMeText p {
+    font-size: 1rem;
+    color: blue;
   }
 }
 
