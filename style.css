@@ -36,6 +36,10 @@
   transition-duration: 2s; /* Rotation of dumbbell will take 2 secs to rotate 90 degrees and take 2 secs to return to its original position */
 }
 
+#workouts h1, #programs h1, .card-body {
+  color: rgb(219, 114, 26);
+}
+
 /* DumbBell will rotate 45 degrees and take 2 secs when hovered on and then return to original position when there is no hovering */
 .dumbbell:hover {
   font-size: 50px;
@@ -55,6 +59,10 @@
   /* background-position: center; */
   /* width: 20vw; */
   height: 50vh;
+}
+
+.aboutMeText h1, .aboutMeText p {
+  color: rgb(219, 114, 26);
 }
 
 /* Resize text when viewed on a phone */
@@ -100,12 +108,19 @@
 
   .aboutMeText h1 {
     font-size: 1.5rem;
-    color: blue;
+    color: rgb(31, 66, 147);
+    margin-top: 0 !important;
+    text-shadow: 1px 0 0 #ffffff;
   }
 
   .aboutMeText p {
     font-size: 1rem;
-    color: blue;
+    color: rgb(31, 66, 147);
+    text-shadow: 1px 0 0 #ffffff;
+  }
+
+  .aboutMeImage {
+    height: 65vh;
   }
 }
 
