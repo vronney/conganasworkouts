@@ -195,8 +195,8 @@
 }
 
 @media only screen and (max-width: 500px) {
-  #footer h4 {
-    font-size: 1.2rem;
+  #footer .footer-logo h4 {
+    font-size: 1.5rem;
   }
 
   .landing-footer {
@@ -240,7 +240,7 @@
     font-size: 1.75em;
   }
 
-  .footer-contact h4, .footer-contact h4 {
-    font-size: .40rem;
+  .footer-contact h4, .footer-connect h4 {
+    font-size: 1.10rem !important;
   }
 }
