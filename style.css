@@ -41,6 +41,15 @@
   color: rgba(0,0,0,0.5);
 }
 
+.card-body a {
+  color: rgb(219, 114, 26);
+}
+
+.card-body a:hover {
+  color: rgb(219, 114, 26);
+  text-decoration: none;
+}
+
 /* DumbBell will rotate 45 degrees and take 2 secs when hovered on and then return to original position when there is no hovering */
 .dumbbell:hover {
   font-size: 50px;
@@ -241,6 +250,6 @@
   }
 
   .footer-contact h4, .footer-connect h4 {
-    font-size: 1.10rem !important;
+    font-size: .95rem !important;
   }
 }
