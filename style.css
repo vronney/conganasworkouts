@@ -194,7 +194,7 @@
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   #footer h4 {
     font-size: 1.2rem;
   }
@@ -238,5 +238,9 @@
 
   .footer-connect a i {
     font-size: 1.75em;
+  }
+
+  .footer-contact h4, .footer-contact h4 {
+    font-size: .40rem;
   }
 }
