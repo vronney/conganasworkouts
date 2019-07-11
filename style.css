@@ -182,7 +182,7 @@
 }
 
 .footer-logo i {
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
 
 .footer-logo i,
@@ -246,7 +246,8 @@
   }
 
   .footer-connect a i {
-    font-size: 1.75em;
+    font-size: 1.05rem;
+    margin-right: 2px;
   }
 
   .footer-contact h4, .footer-connect h4 {
