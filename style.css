@@ -64,9 +64,9 @@
 /* About Me Section */
 
 .aboutMeImage {
-  background: url('images/elsa_in_gym.png'), no-repeat;
+  background: url('images/gym2_image.jpg'), no-repeat;
   background-size: cover;
-  /* background-position: center; */
+  background-position: center center;
   /* width: 20vw; */
   height: 50vh;
 }
@@ -76,7 +76,7 @@
 }
 
 /* Resize text when viewed on a phone */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .fitHeader {
     font-size: 2rem;
   }
@@ -90,6 +90,10 @@
     height: 100%;
     background-color: #ddd;
     overflow: auto;
+  }
+
+  #imagePlaceHolder {
+    background-position: center center;
   }
 
    .menu-overlay {
@@ -118,14 +122,14 @@
 
   .aboutMeText h1 {
     font-size: 1.5rem;
-    color: rgb(31, 66, 147);
+    color: rgba(219, 114, 26);
     margin-top: 0 !important;
     text-shadow: 1px 0 0 #ffffff;
   }
 
   .aboutMeText p {
     font-size: 1rem;
-    color: rgb(31, 66, 147);
+    color: rgba(219, 114, 26);
     text-shadow: 1px 0 0 #ffffff;
   }
 
