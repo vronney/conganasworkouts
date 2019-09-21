@@ -71,6 +71,10 @@
   height: 50vh;
 }
 
+.aboutMeSection {
+  height: 40vh;
+}
+
 .aboutMeText h1, .aboutMeText p {
   color: rgba(219, 114, 26);
 }
@@ -80,7 +84,7 @@
   .fitHeader {
     font-size: 2rem;
   }
-
+  
   #navbarNav {
     position: fixed;
     top: 0;
@@ -92,7 +96,11 @@
     overflow: auto;
   }
 
-  #imagePlaceHolder {
+  #imagePlaceholder {
+    height: 100vh;
+    background-image: url("images/neverGiveUp-resized.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
   }
 
@@ -120,6 +128,10 @@
     margin-left: 240px;
   }
 
+  .aboutMeSection {
+    height: 70vh;
+  }
+
   .aboutMeText h1 {
     font-size: 1.5rem;
     color: rgba(219, 114, 26);
@@ -139,6 +151,12 @@
 
   .mainFooterHeader {
     width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .fitHeader {
+    font-size: 3em;
   }
 }
 
