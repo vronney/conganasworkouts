@@ -24,6 +24,8 @@ $(".navbar li a").click(function (e) {
   $("html, body").animate({scrollTop: targetPosition - 96}, "slow");
 });
 
+// Service Worker Section
+
 // if ('serviceWorker' in navigator) {
 //   window.addEventListener('load', function() {
 //   navigator.serviceWorker
