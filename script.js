@@ -37,5 +37,4 @@ $(".navbar li a").click(function (e) {
 //       console.log('ServiceWorker registration failed', err);
 //     });
 //   }); 
-// }
-
+// 

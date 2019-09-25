@@ -300,3 +300,75 @@
     font-size: .85rem !important;
   }
 }
+
+/* Recipe Section */
+
+.meal {
+  margin: 20px 0;
+}
+
+#mainMealSection {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mealButton {
+  margin: 0 auto 0 auto;
+}
+
+.mealImage {
+  max-width: 100%;
+}
+
+.row .mealVideo {
+  width: 100%;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.meal p {
+  margin-bottom: 5px;
+}
+
+.meal h3 {
+  margin: 0;
+}
+
+.meal h5 {
+  margin: 10px 0;
+}
+
+.meal ul li {
+  margin-bottom: 0;
+}
+
+.meal {
+  margin: 20px 0;
+}
+
+.mealVideo h5 {
+  margin: 10px;
+}
+
+.videoWrapper {
+  position: relative;
+  /* padding-bottom: 56.25%; */
+  padding-top: 25px;
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.videoWrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  #videoContainer {
+    height: 40vh !important;
+  }
+}
+
